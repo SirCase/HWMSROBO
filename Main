@@ -1,0 +1,12 @@
+#define left port1
+                       
+#define right port2
+
+task main()
+
+{
+
+		motor[left] = vexRT[ChC];
+		motor[right] = vexRT[-ChB];
+
+}
